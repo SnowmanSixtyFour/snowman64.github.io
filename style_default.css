@@ -8,7 +8,6 @@ body {
   font-family: Verdana;
 }
 
-<?php
 if ($page_not_found) {
    header('This is not the page you are looking for', true, 404);
    include('not_found.html');
